@@ -6,10 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine_go.IsCapitalized("Hello! How are you?"))
-	fmt.Println(piscine_go.IsCapitalized("Hello How Are You"))
-	fmt.Println(piscine_go.IsCapitalized("Whats 4this 100K?"))
-	fmt.Println(piscine_go.IsCapitalized("Whatsthis4"))
-	fmt.Println(piscine_go.IsCapitalized("!!!!Whatsthis4"))
-	fmt.Println(piscine_go.IsCapitalized(""))
+	fmt.Println(piscine_go.SwapLast([]int{1, 2, 3, 4}))
+	fmt.Println(piscine_go.SwapLast([]int{3, 4, 5}))
+	fmt.Println(piscine_go.SwapLast([]int{1}))
 }

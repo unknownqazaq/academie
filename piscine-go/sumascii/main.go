@@ -1,26 +1,27 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
+	"fmt"
 	"os"
 )
 
 func main() {
 	if len(os.Args) == 2 {
-		sunascii(os.Args[1])
+		result := sumascii(os.Args[1])
+		fmt.Println(result)
 
 	} else {
-		z01.PrintRune('0')
+		fmt.Println(0)
 	}
 
 }
 
-func sunascii(str string) int {
+func sumascii(str string) int {
 	arrByte := []byte(str)
 	var result byte
 	for _, char := range arrByte {
 		result += char
 	}
-	return result
+	return int(result)
 
 }
