@@ -1,4 +1,4 @@
-package piscine_go
+package _2
 
 func BinaryCheck(nbr int32) int {
 	if nbr%2 == 0 {
