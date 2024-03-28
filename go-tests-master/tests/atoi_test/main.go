@@ -2,7 +2,7 @@ package main
 
 import (
 	"strconv"
-	student "student/completed/checkpoint-2/06"
+	student "student/completed/checkpoint/06"
 
 	"github.com/01-edu/go-tests/lib/challenge"
 	"github.com/01-edu/go-tests/lib/random"

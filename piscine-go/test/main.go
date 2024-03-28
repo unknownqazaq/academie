@@ -1,21 +1,15 @@
 package main
 
 import (
-	"github.com/01-edu/z01"
+	"fmt"
+	piscine_go "student"
 )
 
-func searchReplace(str, search, replace string) {
-
-	for _, char := range str {
-		if string(char) == search {
-			z01.PrintRune(rune(replace[0]))
-		} else {
-			z01.PrintRune(char)
-		}
-	}
-}
-
 func main() {
-	searchReplace("hella there", "a", "o")
-
+	fmt.Println(piscine_go.IsCapitalized("Hello! How are you?"))
+	fmt.Println(piscine_go.IsCapitalized("Hello How Are You"))
+	fmt.Println(piscine_go.IsCapitalized("Whats 4this 100K?"))
+	fmt.Println(piscine_go.IsCapitalized("Whatsthis4"))
+	fmt.Println(piscine_go.IsCapitalized("!!!!Whatsthis4"))
+	fmt.Println(piscine_go.IsCapitalized(""))
 }

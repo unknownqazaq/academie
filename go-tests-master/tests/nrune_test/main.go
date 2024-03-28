@@ -2,7 +2,7 @@ package main
 
 import (
 	"math/rand"
-	student "student/completed/checkpoint-2/02"
+	student "student/completed/checkpoint/02"
 
 	"github.com/01-edu/go-tests/lib/challenge"
 	"github.com/01-edu/go-tests/lib/chars"

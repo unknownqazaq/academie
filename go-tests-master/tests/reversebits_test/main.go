@@ -3,7 +3,7 @@ package main
 import (
 	"math/bits"
 	"reflect"
-	student "student/completed/checkpoint-2/07"
+	student "student/completed/checkpoint/07"
 
 	"github.com/01-edu/go-tests/lib/challenge"
 	"github.com/01-edu/go-tests/lib/random"

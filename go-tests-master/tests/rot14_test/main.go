@@ -1,7 +1,7 @@
 package main
 
 import (
-	student "student/completed/checkpoint-2/05"
+	student "student/completed/checkpoint/05"
 
 	"github.com/01-edu/go-tests/lib/challenge"
 	"github.com/01-edu/go-tests/lib/chars"
