@@ -1,7 +1,7 @@
 package main
 
 import (
-	student "student"
+	student "student/cadet/03"
 
 	"github.com/01-edu/go-tests/lib/challenge"
 	"github.com/01-edu/go-tests/solutions"

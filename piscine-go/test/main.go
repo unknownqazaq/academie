@@ -6,7 +6,9 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine_go.SwapLast([]int{1, 2, 3, 4}))
-	fmt.Println(piscine_go.SwapLast([]int{3, 4, 5}))
-	fmt.Println(piscine_go.SwapLast([]int{1}))
+	fmt.Println(piscine_go.AtoiBase("125", "0123456789"))
+	fmt.Println(piscine_go.AtoiBase("1111101", "01"))
+	fmt.Println(piscine_go.AtoiBase("7D", "0123456789ABCDEF"))
+	fmt.Println(piscine_go.AtoiBase("uoi", "choumi"))
+	fmt.Println(piscine_go.AtoiBase("bbbbbab", "-ab"))
 }
